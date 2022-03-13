@@ -1,0 +1,15 @@
+img {
+    width: 100%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns:
+        [full-start]
+        minmax(100px, 1fr)
+        [center-start]
+        repeat(12, [col-start] minmax(min-content, 120px) [col-end])
+        [center-end]
+        minmax(100px, 1fr)
+        [full-end];
+}
