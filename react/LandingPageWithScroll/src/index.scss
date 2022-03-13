@@ -16,8 +16,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $color-bg;
   position: relative;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  // overflow-y: scroll;
+  // overflow-x: hidden;
 }
 
 code {
