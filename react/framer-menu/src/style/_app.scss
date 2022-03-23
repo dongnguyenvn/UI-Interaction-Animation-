@@ -3,6 +3,7 @@
 @import './varibles';
 @import './components/header';
 @import './components/banner';
+@import './components/menu';
 
 * {
     box-sizing: border-box;
@@ -56,6 +57,11 @@ a {
     text-decoration: none;
     color: $black;
     transition: ease-in-out 0.2s;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 ul {
@@ -122,4 +128,15 @@ ul {
 
 .body-lock {
     overflow-y: hidden;
+}
+
+.cursor {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    border-radius: 100%;
+    z-index: 10;
+    pointer-events: none;
 }

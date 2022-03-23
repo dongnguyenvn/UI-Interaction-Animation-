@@ -1,4 +1,5 @@
 const HomePage = () => {
+    //add
     return (
         <div className='banner'>
             <div className='inner-banner'>

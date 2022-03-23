@@ -3,14 +3,14 @@ import Shoe2 from '../images/shoe2.jpg'
 import Shoe3 from '../images/shoe3.jpg'
 import Shoe4 from '../images/shoe4.jpg'
 
-export default [
+const productsData = [
     {
         title: 'Air Max 90',
         id: 'Air-Max-90',
         leftLineFlex: 0,
         rightLineFlex: 1,
         thumbnailPosition: 600,
-        offset: 200,
+        offset: -200,
         img: Shoe1,
     },
     {
@@ -19,7 +19,7 @@ export default [
         leftLineFlex: 3,
         rightLineFlex: 1,
         thumbnailPosition: 200,
-        offset: -500,
+        offset: -800,
         img: Shoe2,
     },
     {
@@ -28,7 +28,7 @@ export default [
         leftLineFlex: 1,
         rightLineFlex: 3,
         thumbnailPosition: 900,
-        offset: 300,
+        offset: -200,
         img: Shoe3,
     },
     {
@@ -37,7 +37,9 @@ export default [
         leftLineFlex: 3,
         rightLineFlex: 2,
         thumbnailPosition: 100,
-        offset: -600,
+        offset: -800,
         img: Shoe4,
     },
 ]
+
+export default productsData
